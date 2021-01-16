@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuite_RegistrationProcess,Chrome 87.0.4280.141,,,2021-01-16 18:31:01,2021-01-16 18:31:23,"22,205s",PASSED
+,,,,,,,
+Test Cases/Register/Registration,Chrome 87.0.4280.141,Full registration process test.,,2021-01-16 18:31:01,2021-01-16 18:31:23,"21,677s",PASSED
+"openBrowser("""")",Chrome 87.0.4280.141,,,2021-01-16 18:31:01,2021-01-16 18:31:05,"3,554s",PASSED
+navigateToUrl(rawUrl = Web_URL),Chrome 87.0.4280.141,,,2021-01-16 18:31:05,2021-01-16 18:31:08,"3,552s",PASSED
+"click(findTestObject(""Object Repository/Pre_registration/Sign_btn""))",Chrome 87.0.4280.141,,,2021-01-16 18:31:08,2021-01-16 18:31:10,"1,969s",PASSED
+"setText(findTestObject(""Object Repository/Pre_registration/E-Mail_Field""), Register_Email)",Chrome 87.0.4280.141,,,2021-01-16 18:31:10,2021-01-16 18:31:11,"0,435s",PASSED
+"click(findTestObject(""Object Repository/Pre_registration/Register_button""))",Chrome 87.0.4280.141,,,2021-01-16 18:31:11,2021-01-16 18:31:11,"0,096s",PASSED
+"click(findTestObject(""Object Repository/Main_Registration/Personal_Information/Gender_check""))",Chrome 87.0.4280.141,,,2021-01-16 18:31:11,2021-01-16 18:31:13,"1,674s",PASSED
+"setText(findTestObject(""Object Repository/Main_Registration/Personal_Information/First_name""), First_Name)",Chrome 87.0.4280.141,,,2021-01-16 18:31:13,2021-01-16 18:31:13,"0,172s",PASSED
+"setText(findTestObject(""Object Repository/Main_Registration/Personal_Information/Last_name""), Last_Name)",Chrome 87.0.4280.141,,,2021-01-16 18:31:13,2021-01-16 18:31:13,"0,163s",PASSED
+try,Chrome 87.0.4280.141,,,2021-01-16 18:31:13,2021-01-16 18:31:13,"0,075s",PASSED
+"setText(findTestObject(""Object Repository/Main_Registration/Personal_Information/Password""), Reg_Password)",Chrome 87.0.4280.141,,,2021-01-16 18:31:13,2021-01-16 18:31:13,"0,246s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Main_Registration/Personal_Information/DoB_Days""), ""2"", false)",Chrome 87.0.4280.141,,,2021-01-16 18:31:13,2021-01-16 18:31:13,"0,171s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Main_Registration/Personal_Information/DoB_Months""), ""1"", false)",Chrome 87.0.4280.141,,,2021-01-16 18:31:13,2021-01-16 18:31:14,"0,163s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Main_Registration/Personal_Information/DoB_Years""), ""1997"", false)",Chrome 87.0.4280.141,,,2021-01-16 18:31:14,2021-01-16 18:31:14,"0,156s",PASSED
+"click(findTestObject(""Object Repository/Main_Registration/Personal_Information/Newsletter""))",Chrome 87.0.4280.141,,,2021-01-16 18:31:14,2021-01-16 18:31:14,"0,102s",PASSED
+"click(findTestObject(""Object Repository/Main_Registration/Personal_Information/SpecialOffer""))",Chrome 87.0.4280.141,,,2021-01-16 18:31:14,2021-01-16 18:31:14,"0,093s",PASSED
+"setText(findTestObject(""Object Repository/Main_Registration/Address/Company_name""), Company)",Chrome 87.0.4280.141,,,2021-01-16 18:31:14,2021-01-16 18:31:14,"0,172s",PASSED
+"setText(findTestObject(""Object Repository/Main_Registration/Address/Address""), Address)",Chrome 87.0.4280.141,,,2021-01-16 18:31:14,2021-01-16 18:31:14,"0,161s",PASSED
+"setText(findTestObject(""Object Repository/Main_Registration/Address/Address_Line2""), Address_2)",Chrome 87.0.4280.141,,,2021-01-16 18:31:14,2021-01-16 18:31:14,"0,159s",PASSED
+"setText(findTestObject(""Object Repository/Main_Registration/Address/City""), City)",Chrome 87.0.4280.141,,,2021-01-16 18:31:14,2021-01-16 18:31:15,"0,167s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Main_Registration/Address/State""), ""2"", false)",Chrome 87.0.4280.141,,,2021-01-16 18:31:15,2021-01-16 18:31:15,"0,171s",PASSED
+"setText(findTestObject(""Object Repository/Main_Registration/Address/Post_code""), Postal)",Chrome 87.0.4280.141,,,2021-01-16 18:31:15,2021-01-16 18:31:15,"0,156s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Main_Registration/Address/Country""), ""21"", false)",Chrome 87.0.4280.141,,,2021-01-16 18:31:15,2021-01-16 18:31:15,"0,148s",PASSED
+"setText(findTestObject(""Object Repository/Main_Registration/Address/Home_phone""), Home_phone)",Chrome 87.0.4280.141,,,2021-01-16 18:31:15,2021-01-16 18:31:15,"0,165s",PASSED
+"setText(findTestObject(""Object Repository/Main_Registration/Address/Mobile_phone""), Mobile_phone)",Chrome 87.0.4280.141,,,2021-01-16 18:31:15,2021-01-16 18:31:15,"0,162s",PASSED
+"click(findTestObject(""Object Repository/Main_Registration/Address/Submit_btn""))",Chrome 87.0.4280.141,,,2021-01-16 18:31:15,2021-01-16 18:31:18,"2,296s",PASSED

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuite_RegistrationProcess" time="22.205" tests="1" failures="0" skips="0" errors="0">
+   <testsuite name="TestSuite_RegistrationProcess" tests="1" failures="0" errors="0" time="22.205" skips="0" timestamp="2021-01-16 18:31:01" hostname="Zymo - Zymo" id="Test Suites/TestSuite_RegistrationProcess">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="F:\\KatalonWorkspace\\WebStore_Test\\WebStore_Test\\Reports\\20210116_183057\\TestSuite_RegistrationProcess\\20210116_183058"/>
+         <property name="logFiles" value="F:\\KatalonWorkspace\\WebStore_Test\\WebStore_Test\\Reports\\20210116_183057\\TestSuite_RegistrationProcess\\20210116_183058\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Zymo - Zymo"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.8.0.208"/>
+         <property name="browser" value="Chrome 87.0.4280.141"/>
+         <property name="hostAddress" value="192.168.100.4"/>
+         <property name="sessionId" value="1980963fec8122b0430d44f88f8bcc6f"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Register/Registration" time="21.677" classname="Test Cases/Register/Registration" status="PASSED">
+         <system-out><![CDATA[2021-01-16 18:31:01 - [TEST_CASE][PASSED] - Test Cases/Register/Registration: Test Cases/Register/Registration
+
+2021-01-16 18:31:01 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-01-16 18:31:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-01-16 18:31:01 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-01-16 18:31:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-01-16 18:31:05 - [TEST_STEP][PASSED] - navigateToUrl(rawUrl = Web_URL): Navigate to 'http://automationpractice.com/index.php' successfully
+
+2021-01-16 18:31:08 - [MESSAGE][PASSED] - Navigate to 'http://automationpractice.com/index.php' successfully
+
+2021-01-16 18:31:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Pre_registration/Sign_btn")): Object: 'Object Repository/Pre_registration/Sign_btn' is clicked on
+
+2021-01-16 18:31:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Pre_registration/Sign_btn' is clicked on
+
+2021-01-16 18:31:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Pre_registration/E-Mail_Field"), Register_Email): Text 'testowanie5.op@wp.pl' is set on object 'Object Repository/Pre_registration/E-Mail_Field'
+
+2021-01-16 18:31:11 - [MESSAGE][PASSED] - Text 'testowanie5.op@wp.pl' is set on object 'Object Repository/Pre_registration/E-Mail_Field'
+
+2021-01-16 18:31:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Pre_registration/Register_button")): Object: 'Object Repository/Pre_registration/Register_button' is clicked on
+
+2021-01-16 18:31:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Pre_registration/Register_button' is clicked on
+
+2021-01-16 18:31:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Main_Registration/Personal_Information/Gender_check")): Object: 'Object Repository/Main_Registration/Personal_Information/Gender_check' is clicked on
+
+2021-01-16 18:31:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Main_Registration/Personal_Information/Gender_check' is clicked on
+
+2021-01-16 18:31:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Main_Registration/Personal_Information/First_name"), First_Name): Text 'Tester' is set on object 'Object Repository/Main_Registration/Personal_Information/First_name'
+
+2021-01-16 18:31:13 - [MESSAGE][PASSED] - Text 'Tester' is set on object 'Object Repository/Main_Registration/Personal_Information/First_name'
+
+2021-01-16 18:31:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Main_Registration/Personal_Information/Last_name"), Last_Name): Text 'Oprogramowania' is set on object 'Object Repository/Main_Registration/Personal_Information/Last_name'
+
+2021-01-16 18:31:13 - [MESSAGE][PASSED] - Text 'Oprogramowania' is set on object 'Object Repository/Main_Registration/Personal_Information/Last_name'
+
+2021-01-16 18:31:13 - [TEST_STEP][PASSED] - try: null
+
+2021-01-16 18:31:13 - [TEST_STEP][PASSED] - email = getAttribute(findTestObject("Object Repository/Main_Registration/Personal_Information/Email_check"), "value"): Attribute 'value' of object 'Object Repository/Main_Registration/Personal_Information/Email_check' is: 'testowanie5.op@wp.pl'
+
+2021-01-16 18:31:13 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Main_Registration/Personal_Information/Email_check' is: 'testowanie5.op@wp.pl'
+
+2021-01-16 18:31:13 - [TEST_STEP][PASSED] - assert Register_Email == email: null
+
+2021-01-16 18:31:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Main_Registration/Personal_Information/Password"), Reg_Password): Text 'T3stowanie1234' is set on object 'Object Repository/Main_Registration/Personal_Information/Password'
+
+2021-01-16 18:31:13 - [MESSAGE][PASSED] - Text 'T3stowanie1234' is set on object 'Object Repository/Main_Registration/Personal_Information/Password'
+
+2021-01-16 18:31:13 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Main_Registration/Personal_Information/DoB_Days"), "2", false): All options with value '2' are selected in object 'Object Repository/Main_Registration/Personal_Information/DoB_Days' 
+
+2021-01-16 18:31:13 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/Main_Registration/Personal_Information/DoB_Days' 
+
+2021-01-16 18:31:13 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Main_Registration/Personal_Information/DoB_Months"), "1", false): All options with value '1' are selected in object 'Object Repository/Main_Registration/Personal_Information/DoB_Months' 
+
+2021-01-16 18:31:14 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Main_Registration/Personal_Information/DoB_Months' 
+
+2021-01-16 18:31:14 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Main_Registration/Personal_Information/DoB_Years"), "1997", false): All options with value '1997' are selected in object 'Object Repository/Main_Registration/Personal_Information/DoB_Years' 
+
+2021-01-16 18:31:14 - [MESSAGE][PASSED] - All options with value '1997' are selected in object 'Object Repository/Main_Registration/Personal_Information/DoB_Years' 
+
+2021-01-16 18:31:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Main_Registration/Personal_Information/Newsletter")): Object: 'Object Repository/Main_Registration/Personal_Information/Newsletter' is clicked on
+
+2021-01-16 18:31:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Main_Registration/Personal_Information/Newsletter' is clicked on
+
+2021-01-16 18:31:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Main_Registration/Personal_Information/SpecialOffer")): Object: 'Object Repository/Main_Registration/Personal_Information/SpecialOffer' is clicked on
+
+2021-01-16 18:31:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Main_Registration/Personal_Information/SpecialOffer' is clicked on
+
+2021-01-16 18:31:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Main_Registration/Address/Company_name"), Company): Text 'Test-corp' is set on object 'Object Repository/Main_Registration/Address/Company_name'
+
+2021-01-16 18:31:14 - [MESSAGE][PASSED] - Text 'Test-corp' is set on object 'Object Repository/Main_Registration/Address/Company_name'
+
+2021-01-16 18:31:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Main_Registration/Address/Address"), Address): Text 'Tested 22' is set on object 'Object Repository/Main_Registration/Address/Address'
+
+2021-01-16 18:31:14 - [MESSAGE][PASSED] - Text 'Tested 22' is set on object 'Object Repository/Main_Registration/Address/Address'
+
+2021-01-16 18:31:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Main_Registration/Address/Address_Line2"), Address_2): Text 'Tested floor 3' is set on object 'Object Repository/Main_Registration/Address/Address_Line2'
+
+2021-01-16 18:31:14 - [MESSAGE][PASSED] - Text 'Tested floor 3' is set on object 'Object Repository/Main_Registration/Address/Address_Line2'
+
+2021-01-16 18:31:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Main_Registration/Address/City"), City): Text 'BigTest' is set on object 'Object Repository/Main_Registration/Address/City'
+
+2021-01-16 18:31:15 - [MESSAGE][PASSED] - Text 'BigTest' is set on object 'Object Repository/Main_Registration/Address/City'
+
+2021-01-16 18:31:15 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Main_Registration/Address/State"), "2", false): All options with value '2' are selected in object 'Object Repository/Main_Registration/Address/State' 
+
+2021-01-16 18:31:15 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/Main_Registration/Address/State' 
+
+2021-01-16 18:31:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Main_Registration/Address/Post_code"), Postal): Text '91234' is set on object 'Object Repository/Main_Registration/Address/Post_code'
+
+2021-01-16 18:31:15 - [MESSAGE][PASSED] - Text '91234' is set on object 'Object Repository/Main_Registration/Address/Post_code'
+
+2021-01-16 18:31:15 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Main_Registration/Address/Country"), "21", false): All options with value '21' are selected in object 'Object Repository/Main_Registration/Address/Country' 
+
+2021-01-16 18:31:15 - [MESSAGE][PASSED] - All options with value '21' are selected in object 'Object Repository/Main_Registration/Address/Country' 
+
+2021-01-16 18:31:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Main_Registration/Address/Home_phone"), Home_phone): Text '90666777' is set on object 'Object Repository/Main_Registration/Address/Home_phone'
+
+2021-01-16 18:31:15 - [MESSAGE][PASSED] - Text '90666777' is set on object 'Object Repository/Main_Registration/Address/Home_phone'
+
+2021-01-16 18:31:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Main_Registration/Address/Mobile_phone"), Mobile_phone): Text '12356789' is set on object 'Object Repository/Main_Registration/Address/Mobile_phone'
+
+2021-01-16 18:31:15 - [MESSAGE][PASSED] - Text '12356789' is set on object 'Object Repository/Main_Registration/Address/Mobile_phone'
+
+2021-01-16 18:31:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Main_Registration/Address/Submit_btn")): Object: 'Object Repository/Main_Registration/Address/Submit_btn' is clicked on
+
+2021-01-16 18:31:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Main_Registration/Address/Submit_btn' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-01-16 18:31:01 - [TEST_SUITE][INCOMPLETE] - TestSuite_RegistrationProcess: null]]></system-out>
+      <system-err><![CDATA[2021-01-16 18:31:01 - [TEST_SUITE][INCOMPLETE] - TestSuite_RegistrationProcess: null]]></system-err>
+   </testsuite>
+</testsuites>

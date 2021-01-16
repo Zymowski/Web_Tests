@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>WebStore</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description>Web URL Address</description>
+      <initValue>'http://automationpractice.com/index.php'</initValue>
+      <name>Web_URL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description> Mail used to register in store.</description>
+      <initValue>'testowanie5.op@wp.pl'</initValue>
+      <name>Register_Email</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Password needed for registration</description>
+      <initValue>'T3stowanie1234'</initValue>
+      <name>Reg_Password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>First name of  the user</description>
+      <initValue>'Tester'</initValue>
+      <name>First_Name</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Last name of the user.</description>
+      <initValue>'Oprogramowania'</initValue>
+      <name>Last_Name</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Username with space to check if matches on dashboard</description>
+      <initValue>'Tester '</initValue>
+      <name>First_Name_Login</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuite_LoginProcess,Chrome 87.0.4280.141,,,2021-01-16 18:35:22,2021-01-16 18:35:38,"15,488s",PASSED
+,,,,,,,
+Test Cases/Login/Logging_in,Chrome 87.0.4280.141,Performing an log in test case.,,2021-01-16 18:35:23,2021-01-16 18:35:38,"15,006s",PASSED
+"openBrowser("""")",Chrome 87.0.4280.141,,,2021-01-16 18:35:23,2021-01-16 18:35:27,"3,606s",PASSED
+navigateToUrl(rawUrl = Web_URL),Chrome 87.0.4280.141,,,2021-01-16 18:35:27,2021-01-16 18:35:31,"4,723s",PASSED
+"click(findTestObject(""Object Repository/Login_Test/Sign_btn""))",Chrome 87.0.4280.141,,,2021-01-16 18:35:31,2021-01-16 18:35:33,"1,277s",PASSED
+"setText(findTestObject(""Object Repository/Login_Test/Email_field""), Register_Email)",Chrome 87.0.4280.141,,,2021-01-16 18:35:33,2021-01-16 18:35:33,"0,421s",PASSED
+"setText(findTestObject(""Object Repository/Login_Test/Password_field""), Reg_Password)",Chrome 87.0.4280.141,,,2021-01-16 18:35:33,2021-01-16 18:35:33,"0,166s",PASSED
+"click(findTestObject(""Object Repository/Login_Test/Submit_btn""))",Chrome 87.0.4280.141,,,2021-01-16 18:35:33,2021-01-16 18:35:35,"1,675s",PASSED
+"name = getText(findTestObject(""Object Repository/Login_Test/Name_check""))",Chrome 87.0.4280.141,,,2021-01-16 18:35:35,2021-01-16 18:35:35,"0,077s",PASSED
+"REname = concatenate(First_Name_Login, Last_Name)",Chrome 87.0.4280.141,,,2021-01-16 18:35:35,2021-01-16 18:35:35,"0,013s",PASSED
+try,Chrome 87.0.4280.141,,,2021-01-16 18:35:35,2021-01-16 18:35:35,"0,002s",PASSED
+"click(findTestObject(""Object Repository/Login_Test/Log_out_btn""))",Chrome 87.0.4280.141,,,2021-01-16 18:35:35,2021-01-16 18:35:37,"2,207s",PASSED
+closeBrowser(),Chrome 87.0.4280.141,,,2021-01-16 18:35:37,2021-01-16 18:35:38,"0,648s",PASSED
